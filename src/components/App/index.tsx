@@ -1,15 +1,23 @@
 import React, { FC } from 'react';
 import { SafeAreaView } from 'react-native';
-import { Button, Text } from 'native-base';
+import { Button, Icon, StyleProvider, Text } from 'native-base';
+import MyIcon from '../../config/MyIcon';
 import styles from './styles';
+import getTheme from '../../../native-base-theme/components';
+import material from '../../../native-base-theme/variables/material';
 
 const App: FC = () => {
   return (
-    <SafeAreaView style={styles.root}>
-      <Button>
-        <Text>Hello World</Text>
-      </Button>
-    </SafeAreaView>
+    <StyleProvider style={getTheme(material)}>
+      <SafeAreaView style={styles.root}>
+        <Button>
+          <Text>Hello World</Text>
+        </Button>
+        <Icon>
+          <MyIcon name="emo-happy" />
+        </Icon>
+      </SafeAreaView>
+    </StyleProvider>
   );
 };
 
