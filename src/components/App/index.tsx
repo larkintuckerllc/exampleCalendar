@@ -14,7 +14,7 @@ const App: FC = () => {
           <Text>Hello World</Text>
         </Button>
         <Icon>
-          <MyIcon name="emo-happy" />
+          <MyIcon size={60} color="red" name="emo-happy" />
         </Icon>
       </SafeAreaView>
     </StyleProvider>
