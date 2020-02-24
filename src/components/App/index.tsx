@@ -1,12 +1,14 @@
 import React, { FC } from 'react';
 import { SafeAreaView } from 'react-native';
-import Calendar from '../Calendar';
+import { Button, Text } from 'native-base';
 import styles from './styles';
 
 const App: FC = () => {
   return (
     <SafeAreaView style={styles.root}>
-      <Calendar />
+      <Button>
+        <Text>Hello World</Text>
+      </Button>
     </SafeAreaView>
   );
 };
