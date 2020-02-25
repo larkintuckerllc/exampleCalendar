@@ -36,8 +36,8 @@
 		96F4CDB47C5428C5CAF93EFE /* libPods-exampleCalendar-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A0CEB01178F7B43261BF60 /* libPods-exampleCalendar-tvOS.a */; };
 		97AA8F4A15D84F1298E3F39F /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAEB1BFEB39C4C89BE47F6FC /* FontAwesome.ttf */; };
 		9F424F1AF9F9422C96F14B32 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC4C981322014C2481B06179 /* rubicon-icon-font.ttf */; };
+		BD23EC9A24049B4E008C0996 /* fontello.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD23EC9924049B4E008C0996 /* fontello.ttf */; };
 		BD25B45624043CD600E716B8 /* myfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD25B45524043CD600E716B8 /* myfont.ttf */; };
-		BDE49CD52404376D0081BD20 /* EIM-Mobile-Icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDE49CD42404376D0081BD20 /* EIM-Mobile-Icons.ttf */; };
 		C8AC72FBE0ED43E6BCEFD008 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87D2926EC4CD4DF58C7B7D36 /* SimpleLineIcons.ttf */; };
 		E9267BE919D444A2B26780C3 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80929F705D134765BB9E6A06 /* Zocial.ttf */; };
 		E9C305A0CBC572E235D0FD1F /* libPods-exampleCalendarTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7911F3D72A881E918F5D5B3D /* libPods-exampleCalendarTests.a */; };
@@ -99,8 +99,8 @@
 		9947CD9F5245436696C5C78C /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		9DFA6D3EC8949AA7CA8F9417 /* Pods-exampleCalendar-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exampleCalendar-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-exampleCalendar-tvOSTests/Pods-exampleCalendar-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		9E5B69AB5C064C44818E4823 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		BD23EC9924049B4E008C0996 /* fontello.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = fontello.ttf; path = ../src/assets/fonts/fontello.ttf; sourceTree = "<group>"; };
 		BD25B45524043CD600E716B8 /* myfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = myfont.ttf; path = ../src/assets/fonts/myfont.ttf; sourceTree = "<group>"; };
-		BDE49CD42404376D0081BD20 /* EIM-Mobile-Icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EIM-Mobile-Icons.ttf"; path = "../src/assets/fonts/EIM-Mobile-Icons.ttf"; sourceTree = "<group>"; };
 		D8950CDFCC5BB7A9F8AB8D0C /* Pods-exampleCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exampleCalendar.release.xcconfig"; path = "Target Support Files/Pods-exampleCalendar/Pods-exampleCalendar.release.xcconfig"; sourceTree = "<group>"; };
 		DA40C6D21468C0A9D6633D97 /* Pods-exampleCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exampleCalendar.debug.xcconfig"; path = "Target Support Files/Pods-exampleCalendar/Pods-exampleCalendar.debug.xcconfig"; sourceTree = "<group>"; };
 		DC4C981322014C2481B06179 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
@@ -209,8 +209,8 @@
 		409584F0951D4C60B2E64714 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BD23EC9924049B4E008C0996 /* fontello.ttf */,
 				BD25B45524043CD600E716B8 /* myfont.ttf */,
-				BDE49CD42404376D0081BD20 /* EIM-Mobile-Icons.ttf */,
 				FBBA06741B454B24AA80446B /* AntDesign.ttf */,
 				06FDD99F6A87414FAA308CF1 /* Entypo.ttf */,
 				5C8DE3BBA9714F1786A10DBD /* EvilIcons.ttf */,
@@ -417,8 +417,8 @@
 				97AA8F4A15D84F1298E3F39F /* FontAwesome.ttf in Resources */,
 				80B8FDC363F14DF5B1B4E299 /* FontAwesome5_Brands.ttf in Resources */,
 				0987445846B84B608C7E943E /* FontAwesome5_Regular.ttf in Resources */,
-				BDE49CD52404376D0081BD20 /* EIM-Mobile-Icons.ttf in Resources */,
 				7759243E6B9B457EB7814DF8 /* FontAwesome5_Solid.ttf in Resources */,
+				BD23EC9A24049B4E008C0996 /* fontello.ttf in Resources */,
 				77EFFED0921B458594E8952E /* Fontisto.ttf in Resources */,
 				82E098FB26FB46D89601AFD1 /* Foundation.ttf in Resources */,
 				5E86346A41D146AEABF11CA5 /* Ionicons.ttf in Resources */,
